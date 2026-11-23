@@ -38,7 +38,7 @@ Allocate Host Memory
 22.	Reset the device using cudaDeviceReset and return from the main function.
 
 ## PROGRAM:
-With memset:
+### With memset:
 ```
 !pip install git+https://github.com/andreinechaev/nvcc4jupyter.git
 %load_ext nvcc4jupyter
@@ -289,16 +289,16 @@ int main(int argc, char **argv)
 !nsys profile --stats=true ./unifmem1
 ```
 
-Without memset:
+### Without memset:
 
 
 ## OUTPUT:
-With memset:
+### With memset:
 <img width="1151" height="668" alt="Screenshot 2026-11-23 085313" src="https://github.com/user-attachments/assets/234c22b1-db71-4608-b453-96073abad700" />
 <img width="1480" height="757" alt="Screenshot 2026-11-23 085429" src="https://github.com/user-attachments/assets/e5904a81-69d7-4c35-abf4-a197b4f30c66" />
 <img width="1061" height="221" alt="Screenshot 2026-11-23 085441" src="https://github.com/user-attachments/assets/0b7714ae-8468-4e94-88f8-0151ff45eb03" />
 
-Without memset:
+### Without memset:
 <img width="1217" height="732" alt="Screenshot 2026-11-23 090414" src="https://github.com/user-attachments/assets/982b1711-7a8d-40ee-95a8-8d529d75f864" />
 <img width="1466" height="741" alt="Screenshot 2026-11-23 090428" src="https://github.com/user-attachments/assets/4191d53f-5618-43bb-91e2-3f154fbced69" />
 <img width="1057" height="219" alt="Screenshot 2026-11-23 090441" src="https://github.com/user-attachments/assets/d1de3258-1537-4e36-98db-a8ea6aa20279" />
