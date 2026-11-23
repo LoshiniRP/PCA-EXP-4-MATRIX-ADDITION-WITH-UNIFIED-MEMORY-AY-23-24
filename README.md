@@ -299,6 +299,9 @@ With memset:
 <img width="1061" height="221" alt="Screenshot 2026-11-23 085441" src="https://github.com/user-attachments/assets/0b7714ae-8468-4e94-88f8-0151ff45eb03" />
 
 Without memset:
+<img width="1217" height="732" alt="Screenshot 2026-11-23 090414" src="https://github.com/user-attachments/assets/982b1711-7a8d-40ee-95a8-8d529d75f864" />
+<img width="1466" height="741" alt="Screenshot 2026-11-23 090428" src="https://github.com/user-attachments/assets/4191d53f-5618-43bb-91e2-3f154fbced69" />
+<img width="1057" height="219" alt="Screenshot 2026-11-23 090441" src="https://github.com/user-attachments/assets/d1de3258-1537-4e36-98db-a8ea6aa20279" />
 
 ## RESULT:
 Thus the program has been executed by using unified memory. It is observed that removing memset function has given less/more_______________time.
